@@ -17,8 +17,8 @@
 ## 📦 Установка и запуск
 1. Клонируйте репозиторий:
    ```bash
-   git clone git@github.com:0KISIK0/appointment_bot.git
-   cd appointment_bot
+   git clone git@github.com:0KISIK0/Habr_Bot.git
+   cd Habr_Bot
    ```
 
 2. Установите зависимости:

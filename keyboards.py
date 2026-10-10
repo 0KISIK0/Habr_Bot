@@ -12,7 +12,7 @@ db = DataBase("data.json")
 
 
 def generate_menu_keyboard() -> types.ReplyKeyboardMarkup:
-    """"""
+    """Клавиатура меню"""
     markup = ReplyKeyboardMarkup()
     btn_articles = KeyboardButton("Популярное")
     btn_flows = KeyboardButton("Потоки")
@@ -22,7 +22,7 @@ def generate_menu_keyboard() -> types.ReplyKeyboardMarkup:
 
 
 def generate_flows_menu() -> types.InlineKeyboardMarkup:
-    """"""
+    """Клавиатура  потоков"""
     markup = types.InlineKeyboardMarkup()
     for title, link_part in FLOWS.items():
         btn = types.InlineKeyboardButton(title, callback_data=f"flow|{link_part}")
